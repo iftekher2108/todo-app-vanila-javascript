@@ -18,6 +18,12 @@
             background: tomato;
             border: none;
             border-radius: 5px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            transition:all 0.3s ease-in-out;
+        }
+        button:hover {
+            background:cornflowerblue;
         }
 
         body {
@@ -28,10 +34,38 @@
 
         .mahmud {
             background: cadetblue;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 20rem;
             color: white;
             padding: 20px;
             border-radius: 10px;
         }
+
+
+    .listgroup {
+        display: flex; 
+        justify-content: space-between;
+        align-items:center;
+    }
+
+h1{
+    transition: all 0.3s ease-in-out;
+    animation: type 1s ease-in infinite alternate;
+}
+
+@keyframes type {
+    0% {
+    /* color:rgb(0,0,0); */
+    transform: rotateY(0deg);
+    }
+    100% {
+        /* color:rgb(255, 255, 255); */
+        transform: rotateY(40deg);
+    }
+}
+
     </style>
 </head>
 
@@ -44,9 +78,9 @@
     </div>
     <br>
     <div class="mahmud">
-        <li>iftekher</li>
-        <li>mahmud</li>
-        <li>pervez</li>
+        <li class="listgroup"><h4>iftekher</h4><button>delete</button></li>
+        <li class="listgroup"><h4> mahmud</h4><button>delete</button></li>
+        <li class="listgroup"><h4>pervez</h4><button>delete</button></li>
 
     </div>
 
