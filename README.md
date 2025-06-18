@@ -13,18 +13,18 @@ This is a simple, lightweight To-Do List web app built using **HTML**, **CSS**, 
 
 ## 📂 Project Structure
 
-todo-app-vanilla-javascript/
+todo-app-vanilla-javascript/ <br>
+│ <br>
+├── assets/ <br>
+│ ├── css/ <br>
+│ │ └── style.css <br>
+│ ├── image/ <br>
+│ │ └── banner.jpg <br>
+│ └── js/ <br>
+│ └── main.js <br>
 │
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── image/
-│ │ └── banner.jpg
-│ └── js/
-│ └── main.js
-│
-├── index.html
-└── README.md
+├── index.html <br>
+└── README.md <br>
 
 
 ## 💻 How It Works
