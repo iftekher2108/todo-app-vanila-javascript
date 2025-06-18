@@ -6,87 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>learning templete</title>
-    <style>
-        input[type=text] {
-            height: 40px;
-            width: 600px;
-        }
-
-        button {
-            padding: 15px 30px;
-            color: white;
-            background: tomato;
-            border: none;
-            border-radius: 5px;
-            font-weight: bolder;
-            text-transform: uppercase;
-            transition:all 0.3s ease-in-out;
-        }
-        button:hover {
-            background:cornflowerblue;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .mahmud {
-            background: cadetblue;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            width: 20rem;
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-
-    .listgroup {
-        display: flex; 
-        justify-content: space-between;
-        align-items:center;
-    }
-
-h1{
-    transition: all 0.3s ease-in-out;
-    animation: type 1s ease-in infinite alternate;
-}
-
-@keyframes type {
-    0% {
-    /* color:rgb(0,0,0); */
-    transform: rotateY(0deg);
-    }
-    100% {
-        /* color:rgb(255, 255, 255); */
-        transform: rotateY(40deg);
-    }
-}
-
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <h1 style="text-align: center;">todo app made with vanila javascript</h1>
     <div class="additem">
-        <input type="text">
+        <input type="text" placeholder="Enter your Message" >
         <button>add note</button>
-        <h3>add some note on it</h3>
+        <h3 class="alert">add some note on it</h3>
     </div>
     <br>
     <div class="mahmud">
-        <li class="listgroup"><h4>iftekher</h4><button>delete</button></li>
-        <li class="listgroup"><h4> mahmud</h4><button>delete</button></li>
-        <li class="listgroup"><h4>pervez</h4><button>delete</button></li>
 
     </div>
 
 
 
-    <script src="js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
